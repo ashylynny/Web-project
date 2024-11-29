@@ -1,0 +1,24 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+}
+.flex-container img {
+   width: 200px;
+   height: 100px;
+}
+.card1, .card2, .card3 {
+    flex-basis: 27%;
+    border: 1px solid black;
+    text-align: center;
+    background-color: cadetblue;
+    padding: 15px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    margin-left: 7px;
+    margin-right: 7px;
+    box-shadow: 3px 3px 3px grey;
+}
